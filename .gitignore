@@ -99,3 +99,18 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+*~
+datasets/*
+\#*
+data/*
+results/*
+results*
+*.gz
+!.gitkeep
+\.*
+\*.*
+\*\*.*
+notebooks/*
+downloads/*
+out.log
